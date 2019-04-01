@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: MyriadPro, sans-serif;
+}
+body {
+	background: #4a99d3;
+	font-size: 14px;
+}
+#position {
+	position: relative;
+}
+#content {
+	margin: 209px auto;
+    background: rgba(33, 63, 100, 0.68);
+    width: 59%;
+	height: 1390px;
+    padding: 76px;
+	padding-top: 51px;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+	z-index: 2;
+}
+h1 {
+	margin-bottom: 31px;
+    font-size: 36px;
+}
+h2 {
+	margin-bottom: 19px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+p {
+	padding-bottom: 23px;
+}
+#cloud1 {
+	position: absolute;
+    right: -143px;
+    top: -83px;
+	z-index: 3;
+}
+#cloud2 {
+	position: absolute;
+    left: 23.5%;
+    top: 15%;
+    width: 213px;
+    height: 137px;
+	z-index: 1;
+}
+#cloud3 {
+	position: absolute;
+    right: 74px;
+    top: 216px;
+	z-index: 1;
+}
+#cloud4 {
+	position: absolute;
+    left: 75px;
+    top: 53px;
+	z-index: 1;
+}
+#image {
+	margin-top: 138px;
+    text-align: center;
+    margin-left: -17px;
+}
+#image img {
+	padding-left: 11px;
+}
+#logo {
+	width: 10px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -434px;
+    z-index: 3;
+}
+footer {
+	background: url(../img/grass.png);
+    height: 150px;
+    position: relative;
+    bottom: 351px;
+	z-index: 3;
+}
